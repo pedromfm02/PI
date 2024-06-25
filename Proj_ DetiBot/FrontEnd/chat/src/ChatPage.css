@@ -1,0 +1,97 @@
+/* Style for the message wrapper */
+.message-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+/* Container for the user message */
+.user-message-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align container to the right */
+}
+
+/* Style for the user message */
+.user-message {
+    justify-content: flex-end;
+}
+.user-message .message-bubble {
+    background-color: #007bff;
+    color: #fff;
+    margin-left: 10px; /* Adds space between the message bubble and the avatar */
+    white-space: pre-wrap; /* Allows breaking text to wrap onto the next line */
+    word-break: break-word; /* Breaks long words onto the next line */
+}
+
+/* Style for the API message */
+.api-message {
+    justify-content: flex-start;
+}
+.api-message .message-bubble {
+    background-color: #e9ecef;
+    color: #333;
+    margin-right: 10px; /* Adds space between the message bubble and the avatar */
+    white-space: pre-wrap; /* Allows breaking text to wrap onto the next line */
+    word-break: break-word; /* Breaks long words onto the next line */
+}
+
+/* Style for the message bubble */
+.message-bubble {
+    padding: 10px 20px;
+    border-radius: 20px;
+    max-width: calc(100% - 10px); /* Adjust max-width to prevent overflow */
+}
+
+/* Style for the spinner container */
+.spinner-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* Style for the spinner */
+.spinner-container .spinner-border {
+    color: #ADD8E6; /* Light blue color */
+}
+
+/* Style for the DetiBot image */
+.detibot-image {
+    height: 60px; /* Larger height for the DetiBot image */
+    margin-right: 10px;
+}
+
+/* Additional styles to enhance appearance */
+.chat-container {
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group-append {
+    margin-left: 10px;
+}
+
+.form-control {
+    border-radius: 15px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 25px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 576px) {
+    .message-bubble {
+        max-width: calc(100% - 60px);
+    }
+}

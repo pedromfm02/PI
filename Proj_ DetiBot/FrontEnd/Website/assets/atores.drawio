@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" modified="2024-03-28T19:02:18.632Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="2gLnBAddnkQncWT_EbX3" version="24.0.7" type="device">
+  <diagram name="Página-1" id="wL1WRNAXMeWQBjIwenzS">
+    <mxGraphModel dx="819" dy="473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="130" y="44" width="609" height="468" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.212;entryY=0.949;entryDx=0;entryDy=0;strokeColor=#474747;entryPerimeter=0;" parent="1" target="bMD_Rju2LHWaMLABZqzu-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="306" y="348" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="204" y="306" as="targetPoint" />
+            <mxPoint x="72" y="407" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="183" y="459" as="targetPoint" />
+            <mxPoint x="71" y="406" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-1" value="DETI Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="40" y="373" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="73" y="284" as="sourcePoint" />
+            <mxPoint x="188" y="286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="284" as="sourcePoint" />
+            <mxPoint x="175" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="201" y="435" as="targetPoint" />
+            <mxPoint x="74" y="284" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="179" y="205" as="targetPoint" />
+            <mxPoint x="75" y="284" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-2" value="DETI Professor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="40" y="254" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="763" y="298" as="sourcePoint" />
+            <mxPoint x="680" y="298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-3" value="Admin&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="768" y="268" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="302" y="203" as="sourcePoint" />
+            <mxPoint x="345" y="237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72" y="145" as="sourcePoint" />
+            <mxPoint x="209" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72" y="145" as="sourcePoint" />
+            <mxPoint x="173" y="111" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="145" as="sourcePoint" />
+            <mxPoint x="176" y="177" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-7" value="Visitor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="41" y="111" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-11" value="&lt;font color=&quot;#474747&quot;&gt;Insert new knowlegde&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="553" y="258" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-4" value="&lt;font color=&quot;#474747&quot; face=&quot;Helvetica&quot; style=&quot;font-size: 24px;&quot;&gt;Questions about DETI&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="314" y="237" width="160" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-18" value="&lt;font color=&quot;#474747&quot;&gt;Ask about DETI courses and its subjects&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="181.5" y="163" width="120" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-19" value="&lt;font color=&quot;#474747&quot;&gt;Rate answer accuracy&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="195.5" y="261" width="92" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-20" value="&lt;font color=&quot;#474747&quot;&gt;Ask who&#39;s&amp;nbsp;the professor in charge of a subject&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="181.5" y="334" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#474747;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="440" as="sourcePoint" />
+            <mxPoint x="394" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-21" value="&lt;font color=&quot;#474747&quot;&gt;Information on important dates&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="192" y="433" width="99" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-22" value="&lt;font color=&quot;#474747&quot;&gt;Ask for lowest grade to enter a course&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="181.5" y="85" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.953;exitY=0.748;exitDx=0;exitDy=0;strokeColor=#474747;exitPerimeter=0;" parent="1" source="bMD_Rju2LHWaMLABZqzu-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bMD_Rju2LHWaMLABZqzu-38" value="DETIBOT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="404.5" y="44" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,12 @@
+pydantic
+mysql-connector-python
+qdrant_client
+langchain_community
+langchain_text_splitters
+transformers
+pypdf
+torch
+selenium
+unstructured
+langchain
+sentence-transformers

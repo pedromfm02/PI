@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DetiBot</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.0/main.min.css" rel="stylesheet"/>
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/team.css">
+  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="css/swot.css">
+  <link rel="stylesheet" href="css/sit_prob_idea.css">
+  <link rel="stylesheet" href="css/personas.css">
+
+  <script src="https://kit.fontawesome.com/87bf050053.js" crossorigin="anonymous"></script>
+  <!--
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://static.fontawesome.com/css/fontawesome-app.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+  -->
+
+<!--
+  <script>
+      import fontAwesome from "https://cdn.skypack.dev/font-awesome@4.7.0";
+    </script>
+    -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
+    -->
+
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"id="top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">DetiBot</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Milestones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="embeded.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="chat.html">Chat</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="d-sm-flex align-items-center justify-content-between mb-4" style="position:fixed; bottom:5px; right:15px;">
+    <a href="#" class="btn btn-circle btn-dark shadow" href="#top">
+      <i class="fas fa-arrow-up fa-sm text-white-50"></i>
+    </a>
+  </div>
+
+
+  <div class="container py-5">
+    <h1 class="text-center mb-5">Project Stages</h1>
+
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <div class="card border-bottom-info shadow h-100 py-2">
+          <a class="nav-link" href="#m1">
+            <div class="card-body" >
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="h3 mb-0 font-weight-light text-gray-800">Milestone 1: Planning</div>
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1"></div>
+                      <div class="text-m font-weight text-secondary  mb-1">
+                        <br>
+                      </div>
+                    </div>
+                    <div class="col-auto"> <i class="fas fa-book fa-2x text-gray-300"></i> </div>
+                </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-3">
+        <div class="card border-bottom-danger shadow h-100 py-2">
+          <a class="nav-link" href="#m2">
+            <div class="card-body" >
+               <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="h3 mb-0 font-weight-light text-gray-800">Milestone 2: Architecture</div>
+                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1"></div>
+                      <div class="text-m font-weight text-secondary  mb-1">
+                        <br>
+                      </div>
+                  </div>
+                  <div class="col-auto"> <i class="fas fa-sitemap fa-2x text-gray-300"></i> </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-3">
+        <div class="card border-bottom-warning shadow h-100 py-2">
+          <a class="nav-link" href="#m3">
+            <div class="card-body" >
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="h3 mb-0 font-weight-light text-gray-800">Milestone 3: Prototype</div>
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1"></div>
+                        <div class="text-m font-weight text-secondary  mb-1">
+                          <br>
+                        </div>
+
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-mobile fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-3">
+        <div class="card border-bottom-success shadow h-100 py-2">
+          <a class="nav-link" href="#m4">
+            <div class="card-body" >
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="h3 mb-0 font-weight-light text-gray-800">Milestone 4: Final Product</div>
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1"></div>
+                        <div class="text-m font-weight text-secondary  mb-1">
+                          <br>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-coins fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+              </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div  class="container py-5">   
+    <div class="row"><hr></div>  
+  </div>
+
+
+  <div  class="container">   
+    <div class="row">
+      <div class="card border-left-dark shadow h-100">
+        <a class="nav-link" href="#links">
+          <div class="card-body" >
+              <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <div class="h3 mb-0 font-weight-light text-gray-800">Useful Links</div>
+                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1"></div>
+                    <div class="text-m font-weight-light text-gray-800  mb-1">
+                      <a href="https://github.com/Gu1lhermeLopes/detiBot">Development Repository</a>
+                      <br>
+                      <a href="files/DETIBOT-1.pdf">Milestone 1 Presentation</a>
+                      <br>
+                      <a href="files/Milestone2.pdf">Milestone 2 Presentation</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </a>
+      </div>
+    </div>  
+  </div>
+
+  <!-- ------------------------------------------ Milestone 1 ------------------------------------------ -->
+  <div  class="container py-5" id="m1">
+
+    <h2 class="text-center mb-5">Milestone 1: Planning</h1>
+      
+    <div class="row">
+      <div class="col-xl-12 col-lg-12">
+        <div class="card border-left-info shadow mb-4">
+          <!-- ------------------------------------------ Header ------------------------------------------ -->
+          <!--
+          <div
+          class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+          <a class="nav-link" href="">
+              <h5 class="m-0 font-weight-bold text-dark"></h6>
+          </a>-->
+          <!--
+          <div class="dropdown no-arrow">
+              <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                  aria-labelledby="dropdownMenuLink">
+                  <div class="dropdown-header">Dropdown Header:</div>
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+          </div>
+          -->
+          <!-- </div> -->
+          <!-- ------------------------------------------ End Header ------------------------------------------ -->
+          <!-- ------------------------------------------ Card Body ------------------------------------------ -->
+          
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                  <div class="lc-block">
+                      <h5 editable="inline" class="display-6 mb-0">Our Team</h5>
+                  </div><!-- /lc-block -->
+              </div>
+          </div>
+            <div class="py-5 team4">
+              <div class="container">
+
+                <div class="row">
+                  <!-- column  -->
+                  <div class="col-lg-3 mb-4">
+                    <!-- Row -->
+                    <div class="row">
+                      <div class="col-md-10">
+                        <img src="images/user_placeholder.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                      </div>
+                      <div class="col-md-10 text-center">
+                        <div class="pt-2">
+                          <h5 class="mt-4 font-weight-medium mb-0">Inês Ferreira</h5>
+                          <h6 class="subtitle mb-3">Product Owner </h6>
+
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Row -->
+                  </div>
+                  <!-- column  -->
+                  <!-- column  -->
+                  <div class="col-lg-3 mb-4">
+                    <!-- Row -->
+                    <div class="row">
+                      <div class="col-md-10">
+                        <img src="images/user_placeholder.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                      </div>
+                      <div class="col-md-10 text-center">
+                        <div class="pt-2">
+                          <h5 class="mt-4 font-weight-medium mb-0">Guilherme Lopes</h5>
+                          <h6 class="subtitle mb-3">Team Manager</h6>
+
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Row -->
+                  </div>
+                  <!-- column  -->
+                  <!-- column  -->
+                  <div class="col-lg-3 mb-4">
+                    <!-- Row -->
+                    <div class="row">
+                      <div class="col-md-10">
+                        <img src="images/user_placeholder.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                      </div>
+                      <div class="col-md-10 text-center">
+                        <div class="pt-2">
+                          <h5 class="mt-4 font-weight-medium mb-0">Simão Antunes</h5>
+                          <h6 class="subtitle mb-3">Architect</h6>
+
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Row -->
+                  </div>
+                  <!-- column  -->
+                  <!-- column  -->
+                  <div class="col-lg-3 mb-4">
+                    <!-- Row -->
+                    <div class="row">
+                      <div class="col-md-10">
+                        <img src="images/user_placeholder.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                      </div>
+                      <div class="col-md-10 text-center">
+                        <div class="pt-2">
+                          <h5 class="mt-4 font-weight-medium mb-0">Pedro Matos</h5>
+                          <h6 class="subtitle mb-3">DevOps</h6>
+
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Row -->
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 mb-4"></div>
+                  <div class="col-lg-3 mb-4">
+                    <div class="row">
+                      <div class="col-md-10">
+                        <img src="images/user_placeholder.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                      </div>
+                      <div class="col-md-10 text-center">
+                        <div class="pt-2">
+                          <h5 class="mt-4 font-weight-medium mb-0">Diogo Gaitas</h5>
+                          <h6 class="subtitle mb-3">QA Tester</h6>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 mb-4"></div>
+                  <div class="col-lg-3 mb-4">
+                    <div class="row">
+                      <div class="col-md-10">
+                        <img src="images/user_placeholder.jpg" alt="wrapkit" class="img-fluid rounded-circle" />
+                      </div>
+                      <div class="col-md-10 text-center">
+                        <div class="pt-2">
+                          <h5 class="mt-4 font-weight-medium mb-0">Mário Antunes</h5>
+                          <h6 class="subtitle mb-3">Advisor</h6>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--
+                  <div class="col-lg-3 mb-4">
+
+                  </div>
+                  <div class="col-lg-3 mb-4">
+
+                  </div>
+                  -->
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <!-- ------------------------------------------ End Card Body ------------------------------------------ -->
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-xl-12 col-lg-12">
+        <div class="card border-left-info shadow mb-4">
+          <!-- ------------------------------------------ Card Body ------------------------------------------ -->
+          
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                  <div class="lc-block">
+                      <h5 editable="inline" class="display-6 mb-0">Concept</h5>
+                  </div><!-- /lc-block -->
+              </div>
+          </div>
+            <div class="container py-5">
+              <div class="row justify-content-center">
+                
+                <div class="col-12 col-lg-4">
+                  <div class="card box-shadow mx-auto my-5" style="width: 18rem;">
+                    <img src="images/sit2.jpg" width="800" height="360" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Situation</h5>
+                      <hr>
+                      
+                      <p class="card-text">There are a wide variety of sites, portals and 
+                        communication services (e.g. discord, slack, etc) that contain different 
+                        types of information.</p>
+                    </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,192C384,171,480,117,576,90.7C672,64,768,64,864,85.3C960,107,1056,149,1152,186.7C1248,224,1344,256,1392,272L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+                    <a><i class="fas fa-disease ichanged"></i></a>
+                  </div>
+                </div>
+                
+                <div class="col-12 col-lg-4">
+                  <div class="card box-shadow my-5 mx-auto" style="width: 18rem;">
+                    <img src="images/problem3.jpg" width="800" height="360" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Problem</h5>
+                      <hr>
+                      <p class="card-text">There are too many different sources, the
+                        information is widely spread. <br><br><br> </p>
+                      
+                    </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L48,53.3C96,43,192,21,288,58.7C384,96,480,192,576,218.7C672,245,768,203,864,154.7C960,107,1056,53,1152,32C1248,11,1344,21,1392,26.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+                    <a><i class="fas fa-disease ichanged"></i></a>
+                  </div>
+                </div>
+                
+                
+                
+                
+                <div class="col-12 col-lg-4">
+                  <div class="card box-shadow mx-auto my-5" style="width: 18rem;">
+                    <img src="images/idea2.jpg" width="800" height="360" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Solution</h5>
+                      <hr>
+                      <p class="card-text">Creating an agent that answers any question 
+                        about the department correctly and in a natural way. <br> <br></p>
+                    </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,256L48,256C96,256,192,256,288,245.3C384,235,480,213,576,181.3C672,149,768,107,864,112C960,117,1056,171,1152,186.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+                    <a><i class="fas fa-disease ichanged"></i></a>
+                  </div>
+            
+                </div>
+                
+              </div>
+            </div>
+              
+            
+            <!-- ------------------------------------------ Product info ------------------------------------------ -->
+            <div class="bg-light py-3">
+            <div class="py-5 service-22">
+              <div class="container">
+                  <!-- Row -->
+                  <div class="row wrap-service-22">
+                      <!-- Column -->
+                      <div class="col-lg-6"> 
+                        <img src="images/chatbot_0.jpeg" class="rounded img-shadow img-fluid" alt="wrapkit" /> 
+                      </div>
+                      <!-- Column -->
+                      <div class="col-lg-6 mt-4 mt-md-0">
+                          <div class="text-box"> <small class="text-info font-weight-medium">Core Idea</small>
+                              <h4 class="font-weight-light mt-2 mb-4">DetiBot helps you <span class="text-megna">getting relevant information</span> with natural interactions.</h4>
+                              <p>This project aims to develop a DETI Bot agent that leverages both Large Language Models (LLMs) and 
+                                Retrieval-Augmented Generation (RAG) to monitor and index all relevant data sources pertaining to departmental activities. 
+                                The bot will offer diverse interfaces for the community to seamlessly interact with this information. </p>
+                          </div>
+                      </div>
+                      <!-- Column -->
+                  </div>
+              </div>
+          </div>
+          </div>
+          <!-- ------------------------------------------ End Product info ------------------------------------------ -->
+          
+
+        <div class="py-5">
+          <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="lc-block">
+                    <h5 editable="inline" class="display-6 mb-0">Who is it for?</h5>
+                </div><!-- /lc-block -->
+            </div>
+        </div>
+          <div class="py-5 service-22">
+
+            <div class="min-vh d-flex">
+              <div class="container align-self-center">
+                  <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                          <div class="lc-block py-5">
+                              <div editable="rich">
+      
+                                  <h5><strong><i class="fas fa-chevron-right text-gray-300"></i> STUDENTS</strong></h5>
+      
+                                  <p>To know about events, room locations, schedules and services.&nbsp;</p>
+                              </div>
+                          </div><!-- /lc-block -->
+      
+                          <div class="lc-block py-5">
+                              <div editable="rich">
+      
+                                  <h5><strong><i class="fas fa-chevron-right text-gray-300"></i> PROFESSORS</strong></h5>
+      
+                                  <p>To know of events, educational files, administrative contacts, research groups, and projects.&nbsp;</p>
+                              </div>
+                          </div><!-- /lc-block -->
+                      </div>
+                      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-center ">
+      
+                          <div class="lc-block mb-2" style="width:100%">
+                              <img alt="" class="img-fluid" src="https://cdn.livecanvas.com/media/svg/drawkit/holding-phone-colour.svg">
+                          </div>
+      
+      
+      
+                      </div>
+                      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 ">
+                          <div class="lc-block py-5">
+                              <div editable="rich">
+      
+                                  <h5><strong><i class="fas fa-chevron-right text-gray-300"></i> STAFF</strong></h5>
+      
+                                  <p>For easy access to different DETI contacts.&nbsp;</p>
+                              </div>
+                          </div><!-- /lc-block -->
+      
+                          <div class="lc-block py-5">
+                              <div editable="rich">
+      
+                                  <h5><strong><i class="fas fa-chevron-right text-gray-300"></i> VISITORS</strong></h5>
+      
+                                  <p>To view DETI presentation, demos, projects, and events open to the public.&nbsp;</p>
+                              </div>
+                          </div><!-- /lc-block -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+
+        </div>
+
+          <div class="py-5">  
+
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <div class="lc-block">
+                          <h5 editable="inline" class="display-6 mb-0">Key Functionalities</h5>
+                      </div><!-- /lc-block -->
+                  </div>
+              </div>
+      
+              <div class="row pt-4">
+                  <div class="col-md-4 text-center">
+                      <div class="lc-block">
+                          <img alt="" class="img-fluid" src="https://cdn.livecanvas.com/media/svg/undraw/social-growth.svg" style="height:10vh">
+                          <h4 class="my-3" editable="inline"></h4>
+                          <p editable="inline">Information gathering from  different DETI websites/documents. </p>
+                      </div><!-- /lc-block -->
+                  </div>
+                  <div class="col-md-4 text-center">
+                      <div class="lc-block">
+                          <img class="img-fluid" alt="" src="https://cdn.livecanvas.com/media/svg/undraw/finance.svg" style="height:10vh">
+                          <h4 class="my-3" editable="inline"></h4>
+                          <p editable="inline">Optimized information indexing. </p>
+                      </div><!-- /lc-block -->
+                  </div>
+                  <div class="col-md-4 text-center">
+                      <img class="img-fluid" alt="" src="https://cdn.livecanvas.com/media/svg/undraw/real-time-sync.svg" style="height:10vh">
+                      <h4 class="my-3" editable="inline"></h4>
+                      <p editable="inline">Unified API with access to multiple front-end possibilities (web page, IM bots). </p>
+                  </div>
+              </div>
+          </div>
+  
+
+          </div>
+
+
+          <!-- ------------------------------------------ SWOT ------------------------------------------ -->
+          <div class="bg-light py-3">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <div class="lc-block">
+                    <h5 editable="inline" class="display-6 mb-0">SWOT Analysis</h5>
+                </div><!-- /lc-block -->
+              </div>
+          </div>
+        </div>
+          <div class="bg-light py-5 service-11">
+            <div class="container">
+
+                <!-- Row  -->
+                <div class="row">
+                    <!-- Column -->
+                    <div class="col-md-6 wrap-service11-box">
+                        <div class="card card-shadow border-0 mb-4">
+                            <div class="p-4">
+                                <div class="icon-space">
+                                    <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant">S</div>
+                                </div>
+                                <h6 class="font-weight-medium">Strenghts</h6>
+                                <p class="mt-3">It provides a natural interaction with its users. 
+                                  Encompasses lots of information <br><br></p>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="col-md-6 wrap-service11-box">
+                        <div class="card card-shadow border-0 mb-4">
+                            <div class="p-4">
+                                <div class="icon-space">
+                                    <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant">W</div>
+                                </div>
+                                <h6 class="font-weight-medium">Weaknesses</h6>
+
+                                <p class="mt-3">Has to deal with fragmented information. 
+                                  Depends heavily on other technologies. 
+                                  Has to prevent inadequate answers from agent
+                                </p>
+
+
+                              </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                </div>
+
+                <div class="row">
+                  <!-- Column -->
+                  <div class="col-md-6 wrap-service11-box">
+                      <div class="card card-shadow border-0 mb-4">
+                          <div class="p-4">
+                              <div class="icon-space">
+                                  <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant">O</div>
+                              </div>
+                              <h6 class="font-weight-medium">Opportunities</h6>
+                              <p class="mt-3">AI market in extention.
+                                Using innovative technology to boost/rejuvenate DETI.
+                                Taking advantage of the lack of centralized information.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Column -->
+                  <div class="col-md-6 wrap-service11-box">
+                      <div class="card card-shadow border-0 mb-4">
+                          <div class="p-4">
+                              <div class="icon-space">
+                                  <div class="icon-round text-center d-inline-block rounded-circle bg-success-gradiant">T</div>
+                              </div>
+                              <h6 class="font-weight-medium">Threats</h6>
+                              <p class="mt-3">Difficulty acessing/updating/compartmentalizing information.
+                                Difficulty in ensuring infrastructure. <br><br>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Column -->
+              </div>
+            </div>
+        </div>
+        <!-- ------------------------------------------ End SWOT ------------------------------------------ -->
+
+        <!-- ------------------------------------------ Gantt ------------------------------------------ -->
+
+        <div class="py-5" id="gantt">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <div class="lc-block">
+                          <h5 editable="inline" class="display-6 mb-0">Project Calendar</h5>
+                      </div><!-- /lc-block -->
+                  </div>
+              </div>
+              <div class="chartCard">
+                <div class="chartBox">
+                  <canvas id="myChart"></canvas>
+                </div>
+              </div>
+              <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+              <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" integrity="sha512-JPcRR8yFa8mmCsfrw4TNte1ZvF1e3+1SdGMslZvmrzDYxS69J7J49vkFL8u6u8PlPJK+H3voElBtUCzaXj+6ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+            <script>
+            // setup 
+            const data = {
+              labels: ['Understand the scope of the project', 
+              'Define goals and Objectives', 
+              'M1: Milestone 1', 
+              'Make a prototype', 
+              'Define architecture and tecnologies', 
+              'M2: Milestone 2', 
+              'Choose knowledge sources',
+              'Discord server bot', 
+              'Develop RAG',
+              'Implement the LLM',
+              'Develop the api',
+              'Develop the Frontend(s)',
+              'Unit Tests and Integration Tests',
+              'Check Point',
+              'M3: Milestone 3',
+              'Usability tests',
+              'Check Point',
+              'Check Point',
+              'Create Demo and Poster for Students@Deti',
+              'Submit technical report',
+              'M4: Milestone 4',
+            ],
+              datasets: [{
+                label: 'Gantt Timeline',
+                data: [
+
+                ['2024-02-20', '2024-02-27'],
+                ['2024-02-20', '2024-02-27'],
+                ['2024-02-27', '2024-02-28'],
+                ['2024-02-27', '2024-03-12'],
+                ['2024-02-27', '2024-03-12'],
+                ['2024-03-12', '2024-03-13'],
+                ['2024-03-12', '2024-03-19'],
+                ['2024-03-12', '2024-04-02'],
+                ['2024-03-12', '2024-04-16'],
+                ['2024-03-12', '2024-04-16'],
+                ['2024-03-12', '2024-04-16'],
+                ['2024-03-12', '2024-05-21'],
+                ['2024-03-12', '2024-05-21'],
+                ['2024-04-02', '2024-04-03'],
+                ['2024-04-16', '2024-04-17'],
+                ['2024-04-23', '2024-05-21'],
+                ['2024-05-07', '2024-05-08'],
+                ['2024-05-21', '2024-05-22'],
+                ['2024-05-21', '2024-05-28'],
+                ['2024-05-30', '2024-06-06'],
+                ['2024-06-04', '2024-06-05']
+
+                ],
+                backgroundColor: [
+                'rgba(255, 26, 104, 1)',    // Red
+                  'rgba(54, 162, 235, 1)',  // Blue
+                  'rgba(255, 206, 86, 1)',  // Yellow
+                  'rgba(75, 192, 192, 1)',  // Green
+                  'rgba(153, 102, 255, 1)', // Purple
+                  'rgba(255, 159, 64, 1)',  // Orange
+                  'rgba(0, 0, 0, 1)'        // Black
+                ],
+                borderColor: [
+                  'rgba(255, 26, 104, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)',
+                  'rgba(0, 0, 0, 1)'
+                ],
+                barPercentage: 0.3,
+              }]
+            };
+
+            // config 
+            const config = {
+              type: 'bar',
+              data,
+              options: {
+                plugins: {
+                  
+                  tooltip: {
+                    enabled: false,
+                    callbacks: {
+                      label: function(context) {
+                        label = ChartDataLabels.formatters.title(context);
+                        return label;
+                      }
+                    }
+                  },
+
+                },
+                indexAxis: 'y',
+                scales: {
+                  x: {
+                    min: '2024-02-20',
+                    type: 'time',
+                    time: {
+                      unit: 'day'
+                    }
+                  },
+                  y: {
+                    beginAtZero: true
+                  }
+                }
+              },
+              //plugins: [ChartDataLabels],
+            };
+
+            // render init block
+            const myChart = new Chart(
+              document.getElementById('myChart'),
+              config
+            );
+
+            // Instantly assign Chart.js version
+            const chartVersion = document.getElementById('chartVersion');
+            chartVersion.innerText = Chart.version;
+            </script>
+          </div>
+        </div>
+
+
+
+
+        <!-- ------------------------------------------ End Gantt ------------------------------------------ -->
+
+
+          </div>
+          <!-- ------------------------------------------ End Card Body ------------------------------------------ -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------------------------ End Milestone 1 ------------------------------------------ -->
+
+
+  <!-- ------------------------------------------ Milestone 2 ------------------------------------------ -->
+  <div  class="container py-5"id="m2"> 
+    <br>
+    <h2 class="text-center mb-5" >Milestone 2: Architecture</h1>
+    <div class="row">
+      <div class="col-xl-12 col-lg-12">
+        <div class="card border-left-danger shadow mb-4">
+          <!-- ------------------------------------------ Card Body ------------------------------------------ -->
+          <div class="card-body">
+            <div class="py-5">  
+
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="lc-block">
+                            <h5 editable="inline" class="display-6 mb-0">Personas</h5>
+                        </div><!-- /lc-block -->
+                    </div>
+                </div>
+                </div>
+                </div>
+            <div class="py-5 service-14">
+              <div class="container">
+  
+            
+                  <div class="row">
+                      <div class="col-lg-6">
+                          <span class="badge badge-danger rounded-pill px-3 py-1 font-weight-light">Scenario</span>
+                          <h3 class="my-3">Joana wants to know when her easter holidays start and end</h3>
+                          <br>
+                          <p>"Quando são as férias da Páscoa?"</p>
+                          <p>"As férias da Páscoa na Universidade de Aveiro irão decorrer entre 25 e 31 de Abril"</p>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="mb-4 mb-sm-0">
+                              <img class="rounded img-fluid" src="images/joana2.png" alt="wrappixel kit" />
+                              <div class="mt-3">
+                                  <h6 class="font-weight-medium">Joana Mota</h6>
+                                  <p class="mt-3">Joana is a 22 year old DETI student that lives in Aveiro.</p>
+                                  
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Column -->
+
+
+                  </div>
+              </div>
+          </div>
+
+          <div class="py-5 service-14">
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <span class="badge badge-danger rounded-pill px-3 py-1 font-weight-light">Scenario</span>
+                    <h3 class="my-3">Francisco is interested in studying LEI in Aveiro. He wants to know what subjects he'll get to know in his first year.</h3>
+                    <br>
+                    <p>"Que cadeiras irei frequentar no primeiro ano do curso Engenharia informática em Aveiro?"</p>
+                    <p>"No primeiro ano de Engenharia Informática irá frequentar as seguintes cadeiras: Fundamentos da programação, Introdução às Tecnologias Web, ..."</p>
+                </div>
+
+                    <div class="col-lg-6">
+                        <div class="mb-4 mb-sm-0">
+                            <img class="rounded img-fluid" src="images/francisco.png" alt="wrappixel kit" />
+                            <div class="mt-3">
+                                <h6 class="font-weight-medium">Francisco Vale</h6>
+                                <p class="mt-3">Francisco is a 18 year old Highschool Student that lives in Porto.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+  
+                    <!-- Column -->
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-light py-3">
+
+            <div class="container">
+              <style>
+                  .brs {
+                    line-height: 250%;
+                  }
+              </style>
+              <div class="row mb-4 align-items-center">
+                  <div class="col-lg-6 mb-4 mb-lg-0">
+                      <div class="lc-block text-center">
+                          <img class="img-fluid " src="https://cdn.livecanvas.com/media/svg/isometric/app_development_SVG.svg" width="400" height="400" loading="lazy">
+                      </div><!-- /lc-block -->
+                  </div><!-- /col -->
+                  <div class="col-lg-6 p-lg-6">
+                      <div class="lc-block mb-5">
+                          <div editable="rich">
+      
+                              <h5 class="display-6">Functional Requirements</h5>
+                              
+                              <p class="lead"><br>
+                                Functional requirements specify the actions or tasks a system must perform to meet user needs.
+                              </p>
+                              
+                            
+                          </div>
+                      </div><!-- /lc-block -->
+                      <!-- /lc-block -->
+                      <div class="lc-block">
+                          <div class="d-inline-flex">
+
+      
+                              <div class="ms-3 align-self-center" editable="rich">
+                                <div class="brs">
+                                
+                                  <p><i class="fas fa-circle-check text-gray-300"></i> Select language between portuguese or english
+                                  <br>
+                                  <i class="fas fa-circle-check text-gray-300"></i> Select trending querys
+                                  <br>
+                                  <i class="fas fa-circle-check text-gray-300"></i> Ask questions by text or voice
+                                  <br>
+                                  <i class="fas fa-circle-check text-gray-300"></i> Receive answers by text or voice
+                                  <br>
+                                  <i class="fas fa-circle-check text-gray-300"></i> View chat history
+                                  <br>
+                                  <i class="fas fa-circle-check text-gray-300"></i> Rate answer accuracy
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div><!-- /col -->
+              </div>
+              <div class="row mb-4 align-items-center">
+                  <div class="col-lg-6 mb-4 mb-lg-0 order-lg-1">
+                      <div class="lc-block text-center"><img class="img-fluid" src="https://cdn.livecanvas.com/media/svg/isometric/Startup_SVG.svg" width="400" height="400" loading="lazy"></div><!-- /lc-block -->
+                  </div><!-- /col -->
+                  <div class="col-lg-6 p-lg-6">
+                      <div class="lc-block mb-5">
+                          <div editable="rich">
+      
+                              <h5 class="display-6 ">Non-Functional Requirements</h5>
+
+                              <p class="lead"><br>
+                                Non-functional requirements specify criteria that characterize the operation of a system rather than specific behaviors.
+                              </p>
+                                
+                            </div>
+                      </div><!-- /lc-block -->
+                      <!-- /lc-block -->
+          
+                      <div class="lc-block">
+                        <div class="d-inline-flex">
+                
+    
+                            <div class="ms-3 align-self-center" editable="rich">
+                              <div class="brs">
+                                <p><strong><i class="fas fa-circle-check text-gray-300"></i> Availability: </strong>
+                                  
+                                  Error Handling and Fault tolerance<br>
+                                  
+                                <strong><i class="fas fa-circle-check text-gray-300"></i> Performance: </strong>
+                                  
+                                  Scalability and Response Time<br>
+                                
+                                <strong><i class="fas fa-circle-check text-gray-300"></i> Usability: </strong>
+                                  
+                                  User-friendly UI and Accessibility<br>
+                                
+                                <strong><i class="fas fa-circle-check text-gray-300"></i> Maintainability: </strong>
+                                  
+                                  Modularity and Documentation<br>
+                                </p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div><!-- /col -->
+              </div>
+              </div>
+      
+          </div>
+
+          <div class="py-5">  
+
+            <div class="py-5">  
+
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="lc-block">
+                            <h5 editable="inline" class="display-6 mb-0">Actors and Use Cases</h5>
+                        </div><!-- /lc-block -->
+                    </div>
+                </div>
+                </div>
+                </div>
+              <br>
+              <div class="row mb-4 align-items-center">
+                <div class="col-lg-12 mb-4 mb-lg-0 order-lg-1">
+                    <div class="lc-block text-center"><img class="img-fluid" src="images/atores.drawio.png" width="700" height="450" loading="lazy"></div><!-- /lc-block -->
+                </div><!-- /col -->
+
+            </div>
+              </div> 
+
+          </div>
+          <!-- ------------------------------------------ End Card Body ------------------------------------------ -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div  class="container"id="m2">     
+    <div class="row">
+      <div class="col-xl-12 col-lg-12">
+        <div class="card border-left-danger shadow mb-4">
+          <!-- ------------------------------------------ Card Body ------------------------------------------ -->
+          <div class="card-body">
+            <div class="py-5">  
+
+              <div class="py-5">  
+
+                <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 text-center">
+                          <div class="lc-block">
+                              <h5 editable="inline" class="display-6 mb-0">System Architecture</h5>
+                          </div><!-- /lc-block -->
+                      </div>
+                  </div>
+                  </div>
+                  </div>
+                <br>
+                <div class="row mb-4 align-items-center">
+                  <div class="col-lg-12 mb-4 mb-lg-0 order-lg-1">
+                      <div class="lc-block text-center"><img class="img-fluid" src="images/sysArch.png" width="1000" height="450" loading="lazy"></div><!-- /lc-block -->
+                  </div><!-- /col -->
+
+              </div>
+                </div> 
+
+                <div class="bg-light">
+                  <div class="py-5 service-22">
+                    <div class="container">
+                        <!-- Row -->
+                        <div class="row wrap-service-22">
+                            <!-- Column -->
+                            <div class="col-lg-6"> 
+                              <img src="images/qdrant_hero_image.svg" class="rounded img-shadow img-fluid" alt="wrapkit" /> 
+                            </div>
+                            <!-- Column -->
+                              <div class="col-lg-6 mt-4 mt-md-0">
+                                <h4 class="font-weight-light mt-2 mb-4">What is <span class="text-danger">qdrant</span> ?</h4>
+                                <p><span class="text-danger">qdrant</span> is a vector similarity search engine that provides a production-ready service with a convenient
+                                API to store, search and manage points (i.e. vectors) with an additional payload </p>
+                                <div class="lc-block text-center"><img class="img-fluid" src="images/dbs.png" width="1000" height="450" loading="lazy"></div><!-- /lc-block -->
+                              </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                    </div>
+                </div>
+<br><br>
+
+              <div class="row mb-4 align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 order-lg-1">
+                    <div class="lc-block text-center"><img class="img-fluid" src="images/Server-amico.svg"400" height="400" loading="lazy">
+                      <a href="https://storyset.com/technology">Technology illustrations by Storyset</a></div><!-- /lc-block -->
+                </div><!-- /col -->
+                <div class="col-lg-6 p-lg-6">
+                    <div class="lc-block mb-5">
+                        <div editable="rich">
+    
+                            <h5 class="display-6 ">Domain Model</h5>
+                            <!--
+                            <p class="lead"><br>
+                              A domain model is a simplified abstraction that defines the entities, attributes, 
+                              and relationships within a particular problem domain, aiding in the understanding and communication of system requirements.
+                            </p>-->
+                              
+                          </div>
+                    </div><!-- /lc-block -->
+                    <!-- /lc-block -->
+        
+                    <div class="lc-block">
+                      <div class="d-inline-flex">
+              
+  
+                          <div class="ms-3 align-self-center" editable="rich">
+                            <div class="brs">
+                              <p><strong> Why do we need a Vector Database </strong>
+                              <br>
+                              <i class="fas fa-circle-check text-gray-300"></i> Efficient storage and indexing of high-dimensional data.<br>
+                              <i class="fas fa-circle-check text-gray-300"></i> Ability to handle large-scale datasets with billions of data points.<br>
+                              <i class="fas fa-circle-check text-gray-300"></i> Ability to handle vectors derived from complex data types such as natural language text<br>
+                              <i class="fas fa-circle-check text-gray-300"></i> Improved performance and reduced latency in machine learning and AI applications. Reduced development and deployment time and costs
+                              compared to building a costum solution<br>
+                              </p>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                </div><!-- /col -->
+            </div>
+
+
+            <div class="py-5">  
+
+              <div class="py-5">  
+
+                <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 text-center">
+                          <div class="lc-block">
+                              <h5 editable="inline" class="display-6 mb-0">Deployment Diagram</h5>
+                          </div><!-- /lc-block -->
+                      </div>
+                  </div>
+                  </div>
+                  </div>
+                <br>
+                <div class="row mb-4 align-items-center">
+                  <div class="col-lg-12 mb-4 mb-lg-0 order-lg-1">
+                      <div class="lc-block text-center"><img class="img-fluid" src="images/depDiagram.png" width="1000" height="450" loading="lazy"></div><!-- /lc-block -->
+                  </div><!-- /col -->
+
+              </div>
+                </div> 
+                </div>
+          </div>
+          <!-- ------------------------------------------ End Card Body ------------------------------------------ -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------------------------ End Milestone 2 ------------------------------------------ -->
+
+
+  <!-- ------------------------------------------ Milestone 3 ------------------------------------------ -->
+  <div  class="container py-5"id="m3"> 
+    <br>
+    <h2 class="text-center mb-5" >Milestone 3: Prototype</h1>
+    <div class="row">
+      <div class="col-xl-12 col-lg-12">
+        <div class="card border-left-warning shadow mb-4">
+          <!-- ------------------------------------------ Card Body ------------------------------------------ -->
+          <div class="card-body">
+            <div class="py-5">  
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="lc-block">
+                            <h3 editable="inline" class="display-7 mb-0">Future Work</h3>
+                        </div><!-- /lc-block -->
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------------------------------ End Card Body ------------------------------------------ -->
+        </div>
+      </div>
+    </div>
+  </div>,
+  <!-- ------------------------------------------ End Milestone 3 ------------------------------------------ -->
+
+
+  <!-- ------------------------------------------ Milestone 4 ------------------------------------------ -->
+  <div  class="container py-5"id="m4"> 
+<br>
+    <h2 class="text-center mb-5" >Milestone 4: Final Product</h1>
+    <div class="row">
+      <div class="col-xl-12 col-lg-12">
+        <div class="card border-left-success shadow mb-4">
+          <!-- ------------------------------------------ Card Body ------------------------------------------ -->
+          <div class="card-body">
+            <div class="py-5">  
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="lc-block">
+                          <h3 editable="inline" class="display-7 mb-0">Future Work</h3>
+                        </div><!-- /lc-block -->
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------------------------------ End Card Body ------------------------------------------ -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------------------------ End Milestone 4 ------------------------------------------ -->
+
+  
+  <footer class="bg-body-tertiary text-center">
+      <div  style="background-color: rgba(0, 0, 0, 0.05);">
+      </div>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.0/main.min.js"></script>
+  <!--  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js'></script>  -->
+  <script type="module" src="./script.js"></script>
+
+</body>
+</html>

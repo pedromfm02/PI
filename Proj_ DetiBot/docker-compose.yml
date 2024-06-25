@@ -1,0 +1,102 @@
+version: "3.8"
+
+services:
+    qdrant:
+      image: qdrant/qdrant
+      container_name: qdrantdb
+      hostname: qdrantdb
+      restart: unless-stopped
+      ports:
+        - 6333:6333
+
+    mysql:
+      image: mysql:latest
+      container_name: mysqldb
+      hostname: mysqldb
+      restart: unless-stopped
+      environment:
+        MYSQL_ROOT_PASSWORD: detibot
+        MYSQL_DATABASE: Detibot
+        MYSQL_USER: bot
+        MYSQL_PASSWORD: pi2024
+      ports:
+        - 3306:3306
+      volumes:
+        - ./BackEnd/MySql/init.sql:/docker-entrypoint-initdb.d/init.sql
+      healthcheck:
+        test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "bot", "-p", "pi2024"]
+        interval: 10s
+        retries: 3
+
+    api:
+      build: 
+        context: ./BackEnd
+        dockerfile: dockerfile.controller
+      image: api
+      container_name: api
+      restart: on-failure
+      ports:
+      - 8000:8000
+      environment:
+      - PYTHONDONTWRITEBYTECODE 1
+      - PYTHONUNBUFFERED 1
+      depends_on:
+        - qdrant
+        - mysql
+
+    update:
+      build: 
+        context: ./BackEnd
+        dockerfile: dockerfile.update
+      image: update
+      container_name: update
+      restart: on-failure
+      environment:
+        - TZ=Europe/Lisbon
+
+    ollama:
+      image: ollama/ollama:latest
+      container_name: ollama
+      ports:
+        - "11434:11434"
+      volumes:
+        - ollama_data:/root/.ollama
+
+    chat:
+      build: ./FrontEnd/chat
+      image: chat
+      container_name: chat
+      ports:
+        - "3000:3000"
+      volumes:
+        - .:/app
+      stdin_open: true
+      depends_on:
+        - api
+
+    admin:
+      build: ./FrontEnd/adminUI
+      image: admin
+      container_name: admin
+      ports:
+        - "3010:3010"
+      volumes:
+        - .:/app
+      stdin_open: true
+      depends_on:
+        - api
+
+    manager:
+      build: ./FrontEnd/manager
+      image: manager
+      container_name: manager
+      ports:
+        - "3020:3020"
+      volumes:
+        - .:/app
+      stdin_open: true
+      depends_on:
+        - api
+
+volumes:
+  ollama_data:

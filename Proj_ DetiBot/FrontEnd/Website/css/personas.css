@@ -1,0 +1,67 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.service-14 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.service-14 h1, .service-14 h2, .service-14 h3, .service-14 h4, .service-14 h5, .service-14 h6 {
+  color: #3e4555;
+}
+
+.service-14 h3 {
+	  line-height: 36px;
+    font-size: 30px;
+}
+
+.service-14 h6 {
+	  line-height: 22px;
+    font-size: 18px;
+}
+
+.service-14 .badge {
+	line-height: 14px;
+}
+
+.service-14 .badge-info {
+	background: #188ef4;
+}
+
+.service-14 .font-weight-medium {
+	font-weight: 500;
+}
+
+.service-14 a {
+	text-decoration: none;
+}
+
+.service-14 .linking {
+	color: #3e4555;
+}
+
+.service-14 .linking:hover {
+	color: #316ce8;
+}
+
+.service-14 .btn-info-gradiant {
+		background: #188ef4;
+    background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+    background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+    background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+}
+
+.service-14 .btn-info-gradiant:hover {
+		background: #316ce8;
+    background: -webkit-linear-gradient(legacy-direction(to right), #316ce8 0%, #188ef4 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#316ce8), to(#188ef4));
+    background: -webkit-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: -o-linear-gradient(left, #316ce8 0%, #188ef4 100%);
+    background: linear-gradient(to right, #316ce8 0%, #188ef4 100%);
+}
+
+.service-14 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}

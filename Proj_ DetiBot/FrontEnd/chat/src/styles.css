@@ -1,0 +1,30 @@
+/* Add custom styles here */
+.chat-container {
+    padding: 20px;
+}
+
+.chat-messages {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.chat-message {
+    padding: 5px 0;
+}
+
+.chat-input {
+    display: flex;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.chat-input button {
+    padding: 5px 10px;
+}

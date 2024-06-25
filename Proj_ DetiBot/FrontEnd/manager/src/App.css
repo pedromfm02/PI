@@ -1,0 +1,172 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Card styling */
+.card {
+  border-radius: 30px !important; /* More rounded corners for the card */
+}
+
+/* Table styling */
+.table-wrapper {
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add some space at the bottom */
+  border-radius: 15px; /* Rounded corners for the wrapper */
+}
+
+.table-sm {
+  border: none;
+  min-height: 200px; /* Ensure the table has a minimum height */
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 1.5rem; /* Increase padding for larger cells */
+  font-weight: 300; /* Lighter font weight */
+  border-top: none; /* Remove horizontal borders */
+  padding-left: 2rem; /* Increase padding to shift text further to the right */
+}
+
+.table-sm thead th {
+  background-color: #5fa9f8; /* Updated blue background for headers */
+  color: white; /* White text color for headers */
+  font-weight: 500; /* Slightly bolder for headers */
+  border-bottom: none;
+}
+
+.table-sm tbody tr:nth-of-type(odd) {
+  background-color: #e9f7ff; /* Light blue background for odd rows */
+}
+
+.table-sm tbody tr:nth-of-type(even) {
+  background-color: #ffffff; /* White background for even rows */
+}
+
+.table-sm tbody tr:hover {
+  background-color: #cce5ff; /* Highlighted blue background on hover */
+}
+
+.table-sm th.id-column,
+.table-sm td.id-column {
+  width: 5%; /* Set width for ID column */
+}
+
+/* Specific width for URL table columns */
+.url-table th.url-column,
+.url-table td.url-column {
+  width: 20%; /* Set width for URL column */
+}
+
+.url-table th.paths-column,
+.url-table td.paths-column {
+  width: 15%; /* Set width for Paths column */
+}
+
+.url-table th.update-period-column,
+.url-table td.update-period-column {
+  width: 10%; /* Set width for Update Period column */
+}
+
+.url-table th.description-column,
+.url-table td.description-column {
+  width: 25%; /* Set width for Description column */
+}
+
+.url-table th.action-column,
+.url-table td.action-column {
+  width: 25%; /* Set width for Action column */
+}
+
+/* General table column widths */
+.table-sm th.file-name-column,
+.table-sm td.file-name-column {
+  width: 20%; /* Set width for File Name column */
+}
+
+.table-sm th.file-path-column,
+.table-sm td.file-path-column {
+  width: 25%; /* Set width for File Path column */
+}
+
+.table-sm th.file-description-column,
+.table-sm td.file-description-column {
+  width: 30%; /* Set width for Description column */
+}
+
+.table-sm th.action-column,
+.table-sm td.action-column {
+  width: 15%; /* Reverted width for Action column */
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.add-entry-button {
+  margin-bottom: 20px;
+}
+
+/* Title styling */
+.page-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.page-title {
+  font-size: 2.5rem; /* Make the title bigger */
+  font-weight: 300; /* Lighter font weight for the title */
+  color: #333;
+}
+
+.table-title {
+  font-weight: 300; /* Lighter font weight for table titles */
+}
+
+/* Button styling */
+.update-button {
+  margin-left: 10px; /* Add space between delete and update button */
+  background-color: #0d6efd !important; /* Primary Bootstrap blue */
+  color: white !important; /* White text color */
+  border: none;
+}

@@ -1,0 +1,16 @@
+#dps ver se vale ou não apena criar requeriments diferentes para o controller e o autoupdate
+
+fastapi
+uvicorn
+pydantic
+mysql-connector-python
+qdrant_client
+langchain_community
+langchain_text_splitters
+transformers
+pypdf
+torch
+selenium
+unstructured
+langchain
+sentence-transformers
